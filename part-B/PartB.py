@@ -13,7 +13,7 @@ class PartB(unittest.TestCase):
     def test_identical(self):
         h1 = House()
         h2 = House()
-        self.assertEqual(h1.display(), h2.display())
+        self.assertEqual(print(h1), print(h2))
 
     def test_setHouseNo(self):
         house = House()
